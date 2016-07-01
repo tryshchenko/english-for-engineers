@@ -66,10 +66,10 @@
 		"description": "Action which is going on now",
 		"schema": {
 			"positive": [
-				"P", "Ving", "S", "TM"
+				"P", "A", "TM", "Ving", "S"
 			],
 			"negative": [
-				"P", "N", "Ving", "S", "TM"
+				"P", "N", "TM", "Ving", "S"
 			],
 			"question": [
 				"Q", "P", "Ving", "S", "TM"
@@ -112,24 +112,132 @@
 			}
 		},
 		"timeMarkers": [
-			"now",
-			"right now",
-			"at present",
-			"presently",
-			"for the time being",
-			"currently",
-			"at the moment",
-			"at the present",
-			"nowadays",
-			"this year"
+			"currently"
 		]
 	},
+
 	{
 		"title": "Present continuous (Time markers in the beginning)",
 		"description": "Action which is going on now",
 		"schema": {
 			"positive": [
-				"P", "Ving", "S", "TM"
+				"TM", "P", "A", "Ving", "S"
+			],
+			"negative": [
+				"TM", "P", "N", "Ving", "S"
+			],
+			"question": [
+				"Q", "P", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "am",
+				"2": "are",
+				"3": "is"
+			},
+			"plural": {
+				"1": "are",
+				"2": "are",
+				"3": "are"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "am not",
+				"2": "aren't",
+				"3": "isn't"
+			},
+			"plural": {
+				"1": "aren't",
+				"2": "aren't",
+				"3": "aren't"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "am",
+				"2": "are",
+				"3": "is"
+			},
+			"plural": {
+				"1": "are",
+				"2": "are",
+				"3": "are"
+			}
+		},
+		"timeMarkers": [
+			"at present",
+			"at the moment",
+			"at the present"
+		]
+	},
+
+	{
+		"title": "Going to",
+		"description": "Action which are you planing to do",
+		"schema": {
+			"positive": [
+				"P", "A", "Ving", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "Ving", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "am going to",
+				"2": "are going to",
+				"3": "is going to"
+			},
+			"plural": {
+				"1": "are going to",
+				"2": "are going to",
+				"3": "are going to"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "am not going to",
+				"2": "aren't going to",
+				"3": "isn't going to"
+			},
+			"plural": {
+				"1": "aren't going to",
+				"2": "aren't going to",
+				"3": "aren't going to"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "am going to",
+				"2": "are going to",
+				"3": "is going to"
+			},
+			"plural": {
+				"1": "are going to",
+				"2": "are going to",
+				"3": "are going to"
+			}
+		},
+		"timeMarkers": [
+			"tonight",
+			"next weekend",
+			"next week",
+			"on Thursday",
+			"in May"
+		]
+	},
+
+	{
+		"title": "Complaining something",
+		"description": "Some regular continuous action",
+		"schema": {
+			"positive": [
+				"P", "A", "Ving", "S", "TM"
 			],
 			"negative": [
 				"P", "N", "Ving", "S", "TM"
@@ -175,16 +283,9 @@
 			}
 		},
 		"timeMarkers": [
-			"now",
-			"right now",
-			"at present",
-			"presently",
-			"for the time being",
-			"currently",
-			"at the moment",
-			"at the present",
-			"nowadays",
-			"this year"
+			"always",
+			"continuously",
+			"constantly"
 		]
 	}
 ]

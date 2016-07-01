@@ -41,7 +41,7 @@ app.controllers.application = (function($){
 			if (node.description !== undefined) {
 				var description = document.createElement('p');
 				description.innerHTML = node.description;
-				description.className = 'alert alert-info';
+				description.className = 'alert alert-success';
 				parent.appendChild(description);
 			}
 
