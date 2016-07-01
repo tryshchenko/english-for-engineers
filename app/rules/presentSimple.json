@@ -1,0 +1,59 @@
+[
+	{
+		"title": "Present simple",
+		"description": "Some regular action",
+		"schema": {
+			"positive": [
+				"P", "V1", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "V1", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "V1", "S", "TM"
+			]
+		},
+		"axilary": [],
+		"negativeMarker": {
+			"singular": {
+				"1": "don't",
+				"2": "don't",
+				"3": "doesn't"
+			},
+			"plural": {
+				"1": "don't",
+				"2": "don't",
+				"3": "doesn't"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "Do",
+				"2": "Do",
+				"3": "Does"
+			},
+			"plural": {
+				"1": "Do",
+				"2": "Do",
+				"3": "Does"
+			}
+		},
+		"timeMarkers": [
+			"always",
+			"frequently",
+			"often",
+			"usually",
+			"generally",
+			"rarely",
+			"regulary",
+			"accasionally",
+			"sometimes",
+			"seldom",
+			"never",
+			"every ...",
+			"once a ...",
+			"twice a ...",
+			"X times a ..."
+		]
+	}
+]

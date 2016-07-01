@@ -1,0 +1,9 @@
+body {
+	overflow-x: hidden;
+}
+
+.example {
+	display:block;
+	float:left;
+	width:100%;
+}

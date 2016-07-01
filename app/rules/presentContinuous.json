@@ -1,0 +1,190 @@
+[
+	{
+		"title": "Present continuous (Time markers in the end)",
+		"description": "Action which is going on now",
+		"schema": {
+			"positive": [
+				"P", "A", "Ving", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "Ving", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "am",
+				"2": "are",
+				"3": "is"
+			},
+			"plural": {
+				"1": "are",
+				"2": "are",
+				"3": "are"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "am not",
+				"2": "aren't",
+				"3": "isn't"
+			},
+			"plural": {
+				"1": "aren't",
+				"2": "aren't",
+				"3": "aren't"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "am",
+				"2": "are",
+				"3": "is"
+			},
+			"plural": {
+				"1": "are",
+				"2": "are",
+				"3": "are"
+			}
+		},
+		"timeMarkers": [
+			"now",
+			"right now",
+			"presently",
+			"for the time being",
+			"currently",
+			"at the moment",
+			"at the present",
+			"nowadays",
+			"this year"
+		]
+	},
+	{
+		"title": "Present continuous (Time markers in the middle)",
+		"description": "Action which is going on now",
+		"schema": {
+			"positive": [
+				"P", "Ving", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "Ving", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "am",
+				"2": "are",
+				"3": "is"
+			},
+			"plural": {
+				"1": "are",
+				"2": "are",
+				"3": "are"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "am not",
+				"2": "aren't",
+				"3": "isn't"
+			},
+			"plural": {
+				"1": "aren't",
+				"2": "aren't",
+				"3": "aren't"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "am",
+				"2": "are",
+				"3": "is"
+			},
+			"plural": {
+				"1": "are",
+				"2": "are",
+				"3": "are"
+			}
+		},
+		"timeMarkers": [
+			"now",
+			"right now",
+			"at present",
+			"presently",
+			"for the time being",
+			"currently",
+			"at the moment",
+			"at the present",
+			"nowadays",
+			"this year"
+		]
+	},
+	{
+		"title": "Present continuous (Time markers in the beginning)",
+		"description": "Action which is going on now",
+		"schema": {
+			"positive": [
+				"P", "Ving", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "Ving", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "am",
+				"2": "are",
+				"3": "is"
+			},
+			"plural": {
+				"1": "are",
+				"2": "are",
+				"3": "are"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "am not",
+				"2": "aren't",
+				"3": "isn't"
+			},
+			"plural": {
+				"1": "aren't",
+				"2": "aren't",
+				"3": "aren't"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "am",
+				"2": "are",
+				"3": "is"
+			},
+			"plural": {
+				"1": "are",
+				"2": "are",
+				"3": "are"
+			}
+		},
+		"timeMarkers": [
+			"now",
+			"right now",
+			"at present",
+			"presently",
+			"for the time being",
+			"currently",
+			"at the moment",
+			"at the present",
+			"nowadays",
+			"this year"
+		]
+	}
+]

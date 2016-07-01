@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>English learning</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./vendor/bs-theme/style.css">
+	<link rel="stylesheet" href="./assets/style/main.css">
+
+	<script src="vendor/jquery/jquery.min.js"></script>
+</head>
+<body>
+<div class="row">
+	<div class="container">
+		<div class="col-md-12">
+			<h1><a class="btn btn-success btn-lg">ENG</a> English tenses for engineers</h1>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="container">
+		<div class="col-md-3 sidebar">
+			<h3>Present</h3>
+			<div class="list-group">
+			  <a href="#" data-rule="presentSimple" class="list-group-item active">Present simple</a>
+			  <a href="#" data-rule="presentContinuous" class="list-group-item">Present continuous</a>
+			  <a href="#" data-rule="presentPerfect" class="list-group-item">Present perfect</a>
+			  <a href="#" data-rule="presentPerfectContinuous" class="list-group-item">Present perfect continuous</a>
+			</div>
+			<h3>Past</h3>
+			<div class="list-group">
+			  <a href="#" data-rule="pastSimple" class="list-group-item">Past simple</a>
+			  <a href="#" data-rule="pastContinuous" class="list-group-item">Past continuous</a>
+			  <a href="#" data-rule="pastPerfect" class="list-group-item">Past perfect</a>
+			  <a href="#" data-rule="pastPerfectContinuous" class="list-group-item">Past perfect continuous</a>
+			</div>
+			<h3>Future</h3>
+			<div class="list-group">
+			  <a href="#" data-rule="futureSimple" class="list-group-item">Future simple</a>
+			  <a href="#" data-rule="futureContinuous" class="list-group-item">Future continuous</a>
+			  <a href="#" data-rule="futurePerfect" class="list-group-item">Future perfect</a>
+			  <a href="#" data-rule="futurePerfectContinuous" class="list-group-item">Future perfect continuous</a>
+			</div>
+		</div>
+
+		<div class="col-md-9 col-sm-12">
+			<div id="primary">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="./app/helpers/xhr.helper.js"></script>
+
+<script src="./app/components/person.component.js"></script>
+<script src="./app/components/verbFactory.component.js"></script>
+<script src="./app/components/plainFactory.component.js"></script>
+<script src="./app/components/axilaryFactory.component.js"></script>
+<script src="./app/components/timeMarkerFactory.component.js"></script>
+
+
+
+<script src="./app/application.controller.js"></script>
+
+</body>
+</html>
