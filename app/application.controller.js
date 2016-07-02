@@ -16,6 +16,7 @@ app.controllers.application = (function($){
 		S: app.components.plainFactory('Subject'),
 		TM: app.components.timeMarkerFactory,
 		A: app.components.axilaryFactory,
+		AS: app.components.axilaryFactory,
 		N: app.components.axilaryFactory,
 		Q: app.components.axilaryFactory,
 	}

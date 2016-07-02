@@ -6,7 +6,8 @@ app.components.axilaryFactory = (function(){
 	var mapper = {
 		N: 'negativeMarker',
 		A: 'questionMarker',
-		Q: 'questionMarker'
+		Q: 'questionMarker',
+		AS: 'specialMarker',
 	}
 
 	function buildDropdown(mapping, node) {

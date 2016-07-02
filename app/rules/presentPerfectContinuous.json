@@ -1,0 +1,82 @@
+[
+	{
+		"title": "Present perfect continuous",
+		"description": "An action which are already done",
+		"schema": {
+			"positive": [
+				"P", "A", "AS", "Ving", "S", "TM"
+			],
+			"negative": [
+				"P", "A", "N", "AS", "Ving", "S", "TM"
+			],
+			"question": [
+				"A", "P", "AS", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "have",
+				"2": "have",
+				"3": "has"
+			},
+			"plural": {
+				"1": "have",
+				"2": "have",
+				"3": "have"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "have not",
+				"2": "have not",
+				"3": "has not"
+			},
+			"plural": {
+				"1": "have not",
+				"2": "have not",
+				"3": "have not"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "have",
+				"2": "have",
+				"3": "has"
+			},
+			"plural": {
+				"1": "have",
+				"2": "have",
+				"3": "have"
+			}
+		},
+		"specialMarker": {
+			"singular": {
+				"1": "been",
+				"2": "been",
+				"3": "been"
+			},
+			"plural": {
+				"1": "been",
+				"2": "been",
+				"3": "been"
+			}
+		},
+		"timeMarkers": [
+			"always",
+			"frequently",
+			"often",
+			"usually",
+			"generally",
+			"rarely",
+			"regulary",
+			"accasionally",
+			"sometimes",
+			"seldom",
+			"never",
+			"every ...",
+			"once a ...",
+			"twice a ...",
+			"X times a ..."
+		]
+	}
+]
