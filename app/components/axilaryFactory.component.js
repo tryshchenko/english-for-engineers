@@ -10,6 +10,12 @@ app.components.axilaryFactory = (function(){
 		AS: 'specialMarker',
 	}
 
+	/**
+	 * Build dropdown from income data
+	 * @param  {object]} mapping Simple relations mapper
+	 * @param  {object} node    datasheet
+	 * @return {object}         DOM element
+	 */
 	function buildDropdown(mapping, node) {
 		var element = document.createElement('div');
 		var select = document.createElement('select');

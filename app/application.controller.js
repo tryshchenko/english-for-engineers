@@ -3,10 +3,20 @@ app.controllers = app.controllers || {};
 
 app.controllers.application = (function($){
 
+	/**
+	 * Encapsulated declarations of the document elements
+	 * @type {Object}
+	 */
 	var sections = {
 		primary: document.getElementById('primary'),
+		sharingIcons: document.querySelectorAll('.social-share'),
+		groupItems: document.querySelectorAll('.list-group-item')
 	}
 
+	/**
+	 * Blocks map
+	 * @type {Object}
+	 */
 	var exampleElements = {
 		P: app.components.person,
 		V1: app.components.verbFactory(1),
@@ -21,12 +31,23 @@ app.controllers.application = (function($){
 		Q: app.components.axilaryFactory,
 	}
 
+	/**
+	 * Builds heading into the tense description
+	 * @param  {content} text
+	 * @return {object}      Document node
+	 */
 	function headersFactory(text) {
 		var element = document.createElement('h4');
+
 		element.innerHTML = text;
 		return element;
 	}
 
+	/**
+	 * Makes HTML from structured JSON
+	 * @param  {object} data Parsed json
+	 * @return {object}      DOM node with compiled data
+	 */
 	function prebuildResponse(data) {
 		var parent = document.createElement('div');
 
@@ -66,21 +87,33 @@ app.controllers.application = (function($){
 		return parent;
 	}
 
+	/**
+	 * Remove highlighted menu elements
+	 */
 	function removeActiveSelections() {
-		var listItems = document.querySelectorAll('.list-group-item');
+		var listItems = sections.groupItems;
 		[].forEach.call(listItems, function(element){
 			element.className = element.className.replace("active","");
 		});
 	}
 
+	/**
+	 * Build HTML and attach it into a document
+	 * @param  {object} data Parsed json
+	 * @return {[type]}      [description]
+	 */
 	function render(data) {
+		// @TODO reduce child calls
 		var element = prebuildResponse(data);
 
 		sections.primary.innerHTML = '';
 		sections.primary.appendChild(element);
-
 	}
 
+	/**
+	 * Attach listener to menu element
+	 * @param {object} element Menu element
+	 */
 	function setListListeners(element) {
 		element.addEventListener('click', function(event){
 			var file;
@@ -92,23 +125,36 @@ app.controllers.application = (function($){
 		})
 	}
 
+	/**
+	 * Attach social sharing helper to each social button
+	 */
 	function initSocialSharing() {
-		var sharingButtons = document.querySelectorAll('.social-share');
+		var sharingButtons = sections.sharingIcons;
 		[].forEach.call(sharingButtons, function(element){
-			console.log(app.share);
 			element.addEventListener('click', app.share);
 		});
 	}
 
+	/**
+	 * Push menu listeners
+	 */
 	function initAction() {
-		var listItems = document.querySelectorAll('.list-group-item');
+		var listItems = sections.groupItems;
 		[].forEach.call(listItems, setListListeners);
 	}
 
+	/**
+	 * Success callback to xhr helper
+	 * @param  {string} response
+	 */
 	function ok(response) {
 		console.log(response);
 	}
 
+	/**
+	 * Fail callback to xhr helper
+	 * @param  {string} response
+	 */
 	function fail(response) {
 		console.log(response);
 	}
