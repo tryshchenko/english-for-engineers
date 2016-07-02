@@ -6,7 +6,7 @@ app.components.plainFactory = (function(){
 		var element = document.createElement('div');
 
 		element.className = 'col-md-2 plain-element';
-		element.innerHTML = type;
+		element.innerHTML = '<span class="decor btn btn-default">' + type + '</span>';
 
 		return element;
 	}

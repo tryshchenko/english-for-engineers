@@ -11,3 +11,7 @@ body {
 a, select {
 	cursor: pointer;
 }
+
+.decor {
+	cursor: default;
+}

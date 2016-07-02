@@ -14,7 +14,7 @@ app.components.axilaryFactory = (function(){
 		var element = document.createElement('div');
 		var select = document.createElement('select');
 
-		element.className = 'col-md-3 plain-element';
+		element.className = 'col-md-2 plain-element';
 		select.className = 'form-control';
 
 		['singular', 'plural'].forEach(function(element){

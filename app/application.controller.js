@@ -13,7 +13,7 @@ app.controllers.application = (function($){
 		V2: app.components.verbFactory(2),
 		V3: app.components.verbFactory(3),
 		Ving: app.components.verbFactory('+ ing'),
-		S: app.components.plainFactory('Subject'),
+		S: app.components.plainFactory('details'),
 		TM: app.components.timeMarkerFactory,
 		A: app.components.axilaryFactory,
 		AS: app.components.axilaryFactory,

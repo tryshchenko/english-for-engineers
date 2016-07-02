@@ -6,7 +6,7 @@ app.components.verbFactory = (function(){
 		var element = document.createElement('div');
 
 		element.className = 'col-md-2 person-element';
-		element.innerHTML = '<span class="glyphicon glyphicon-refresh"></span>' + ' Verb' + type;
+		element.innerHTML = '<span class="btn btn-success"><span class="glyphicon glyphicon-refresh"></span>' + ' Verb' + type + '</span>';
 
 		return element;
 	}
