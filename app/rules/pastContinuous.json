@@ -1,0 +1,60 @@
+[
+	{
+		"title": "Past simple",
+		"description": "Some regular action in the past",
+		"schema": {
+			"positive": [
+				"P", "A", "Ving", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "Ving", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "was",
+				"2": "were",
+				"3": "was"
+			},
+			"plural": {
+				"1": "were",
+				"2": "were",
+				"3": "were"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "wasn't",
+				"2": "were not",
+				"3": "wasn't"
+			},
+			"plural": {
+				"1": "were not",
+				"2": "were not",
+				"3": "were not"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "was",
+				"2": "were",
+				"3": "was"
+			},
+			"plural": {
+				"1": "were",
+				"2": "were",
+				"3": "were"
+			}
+		},
+		"timeMarkers": [
+			"yesterday",
+			"last week",
+			"a month ago",
+			"in 2010",
+			"this morning"
+		]
+	}
+]
