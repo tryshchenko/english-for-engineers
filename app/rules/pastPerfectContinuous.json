@@ -1,0 +1,72 @@
+[
+	{
+		"title": "Present perfect continuous",
+		"description": "An continuous action which is already finished. Like Presend Perfect Continuous but we mean continuous action which is finished already",
+		"schema": {
+			"positive": [
+				"P", "A", "AS", "Ving", "S", "TM"
+			],
+			"negative": [
+				"P", "A", "N", "AS", "Ving", "S", "TM"
+			],
+			"question": [
+				"A", "P", "AS", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "had",
+				"2": "had",
+				"3": "had"
+			},
+			"plural": {
+				"1": "had",
+				"2": "had",
+				"3": "had"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "had not",
+				"2": "had not",
+				"3": "has not"
+			},
+			"plural": {
+				"1": "had not",
+				"2": "had not",
+				"3": "had not"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "had",
+				"2": "had",
+				"3": "had"
+			},
+			"plural": {
+				"1": "had",
+				"2": "had",
+				"3": "had"
+			}
+		},
+		"specialMarker": {
+			"singular": {
+				"1": "been",
+				"2": "been",
+				"3": "been"
+			},
+			"plural": {
+				"1": "been",
+				"2": "been",
+				"3": "been"
+			}
+		},
+		"timeMarkers": [
+			"for half an hour",
+			"all morning",
+			"since noon",
+			"all afternoon",
+			"lately"
+		]
+	}
+]
