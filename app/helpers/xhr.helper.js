@@ -16,8 +16,7 @@ app.xhr = (function($){
 
 	var get = function(what, success, fail) {
 		var file = what + '.json';
-		console.log(window.localStorage[what]);
-		if (window.localStorage[_storageKey + file] !== undefined && 1 == 2) {
+		if (window.localStorage[_storageKey + file] !== undefined) {
 			return success(JSON.parse(window.localStorage[_storageKey + file]));
 		}
 		success = successDecorator(file, success);

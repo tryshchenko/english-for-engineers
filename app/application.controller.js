@@ -92,6 +92,14 @@ app.controllers.application = (function($){
 		})
 	}
 
+	function initSocialSharing() {
+		var sharingButtons = document.querySelectorAll('.social-share');
+		[].forEach.call(sharingButtons, function(element){
+			console.log(app.share);
+			element.addEventListener('click', app.share);
+		});
+	}
+
 	function initAction() {
 		var listItems = document.querySelectorAll('.list-group-item');
 		[].forEach.call(listItems, setListListeners);
@@ -106,5 +114,6 @@ app.controllers.application = (function($){
 	}
 
 	initAction();
+	initSocialSharing();
 
 })(jQuery);
