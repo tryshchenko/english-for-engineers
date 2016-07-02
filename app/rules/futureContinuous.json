@@ -1,0 +1,70 @@
+[
+	{
+		"title": "Future continuous",
+		"description": "Status of the subject in the future",
+		"schema": {
+			"positive": [
+				"P", "A", "AS", "Ving", "S", "TM"
+			],
+			"negative": [
+				"P", "A", "N", "AS", "Ving", "S", "TM"
+			],
+			"question": [
+				"A", "P", "AS", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			},
+			"plural": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "will not",
+				"2": "will not",
+				"3": "will not"
+			},
+			"plural": {
+				"1": "will not",
+				"2": "will not",
+				"3": "will not"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			},
+			"plural": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			}
+		},
+		"specialMarker": {
+			"singular": {
+				"1": "be",
+				"2": "be",
+				"3": "be"
+			},
+			"plural": {
+				"1": "be",
+				"2": "be",
+				"3": "be"
+			}
+		},
+		"timeMarkers": [
+			"at X time",
+			"Tomorrow",
+			"This week"
+		]
+	}
+]
