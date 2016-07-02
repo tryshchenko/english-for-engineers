@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Future simple",
+		"description": "Some possible plans for the future",
+		"schema": {
+			"positive": [
+				"P", "A", "V1", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "V1", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "V1", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			},
+			"plural": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "will not",
+				"2": "will not",
+				"3": "will not"
+			},
+			"plural": {
+				"1": "will not",
+				"2": "will not",
+				"3": "will not"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "Will",
+				"2": "Will",
+				"3": "Will"
+			},
+			"plural": {
+				"1": "Will",
+				"2": "Will",
+				"3": "Will"
+			}
+		},
+		"timeMarkers": [
+			"later today",
+			"tomorrow",
+			"next month",
+			"Friday afternoon",
+			"Friday afternoon",
+			"this year",
+			"in twenty minutes"
+		]
+	}
+]
