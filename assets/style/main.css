@@ -7,3 +7,7 @@ body {
 	float:left;
 	width:100%;
 }
+
+a, select {
+	cursor: pointer;
+}

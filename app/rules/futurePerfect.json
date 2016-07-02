@@ -1,0 +1,70 @@
+[
+	{
+		"title": "Future perfect",
+		"description": "And action which will be finished until some moment",
+		"schema": {
+			"positive": [
+				"P", "A", "AS", "V2", "S", "TM"
+			],
+			"negative": [
+				"P",  "N", "AS", "V2", "S", "TM"
+			],
+			"question": [
+				"A", "P", "AS", "V2", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			},
+			"plural": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "will not",
+				"2": "will not",
+				"3": "will not"
+			},
+			"plural": {
+				"1": "will not",
+				"2": "will not",
+				"3": "will not"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			},
+			"plural": {
+				"1": "will",
+				"2": "will",
+				"3": "will"
+			}
+		},
+		"specialMarker": {
+			"singular": {
+				"1": "have",
+				"2": "have",
+				"3": "have"
+			},
+			"plural": {
+				"1": "have",
+				"2": "have",
+				"3": "have"
+			}
+		},
+		"timeMarkers": [
+			"when (future simple)",
+			"by the next year",
+			"by (present simple)"
+		]
+	}
+]
