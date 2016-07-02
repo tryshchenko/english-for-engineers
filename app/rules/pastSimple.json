@@ -1,0 +1,49 @@
+[
+	{
+		"title": "Past simple",
+		"description": "Some regular action in the past",
+		"schema": {
+			"positive": [
+				"P", "V2", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "V1", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "V1", "S", "TM"
+			]
+		},
+		"axilary": [],
+		"negativeMarker": {
+			"singular": {
+				"1": "didn't",
+				"2": "didn't",
+				"3": "didn't"
+			},
+			"plural": {
+				"1": "didn't",
+				"2": "didn't",
+				"3": "didn't"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "Did",
+				"2": "Did",
+				"3": "Did"
+			},
+			"plural": {
+				"1": "Did",
+				"2": "Did",
+				"3": "Did"
+			}
+		},
+		"timeMarkers": [
+			"yesterday",
+			"last week",
+			"a month ago",
+			"in 2010",
+			"this morning"
+		]
+	}
+]

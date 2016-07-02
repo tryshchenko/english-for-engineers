@@ -62,21 +62,11 @@
 			}
 		},
 		"timeMarkers": [
-			"always",
-			"frequently",
-			"often",
-			"usually",
-			"generally",
-			"rarely",
-			"regulary",
-			"accasionally",
-			"sometimes",
-			"seldom",
-			"never",
-			"every ...",
-			"once a ...",
-			"twice a ...",
-			"X times a ..."
+			"for half an hour",
+			"all morning",
+			"since noon",
+			"all afternoon",
+			"lately"
 		]
 	}
 ]
