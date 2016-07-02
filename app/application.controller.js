@@ -31,8 +31,6 @@ app.controllers.application = (function($){
 		var parent = document.createElement('div');
 
 		[].forEach.call(data, function(node, index){
-				console.log(node);
-
 			if (node.title !== undefined) {
 				var title = document.createElement('h2');
 				title.innerHTML = (index + 1) + '. ' + node.title;
@@ -85,12 +83,12 @@ app.controllers.application = (function($){
 
 	function setListListeners(element) {
 		element.addEventListener('click', function(event){
+			var file;
+
 			removeActiveSelections();
 			event.target.className = event.target.className + ' active';
-			var file = event.target.getAttribute('data-rule');
-			app.xhr.get(file, render, function(){
-				console.log('error');
-			});
+			file = event.target.getAttribute('data-rule');
+			app.xhr.get(file, render, fail);
 		})
 	}
 

@@ -1,7 +1,7 @@
 [
 	{
-		"title": "Past simple",
-		"description": "Some regular action in the past",
+		"title": "Past continuous (time marker in the end)",
+		"description": "Some action in the past which took a time",
 		"schema": {
 			"positive": [
 				"P", "A", "Ving", "S", "TM"
@@ -54,7 +54,67 @@
 			"last week",
 			"a month ago",
 			"in 2010",
-			"this morning"
+			"this morning",
+			"In 1992"
+		]
+	},
+	{
+		"title": "Past continuous (time marker in the beginning)",
+		"description": "Some action in the past which took a time",
+		"schema": {
+			"positive": [
+				"TM", "P", "A", "Ving", "S"
+			],
+			"negative": [
+				"TM", "P", "N", "Ving", "S"
+			],
+			"question": [
+				"Q", "P", "Ving", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "was",
+				"2": "were",
+				"3": "was"
+			},
+			"plural": {
+				"1": "were",
+				"2": "were",
+				"3": "were"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "wasn't",
+				"2": "were not",
+				"3": "wasn't"
+			},
+			"plural": {
+				"1": "were not",
+				"2": "were not",
+				"3": "were not"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "was",
+				"2": "were",
+				"3": "was"
+			},
+			"plural": {
+				"1": "were",
+				"2": "were",
+				"3": "were"
+			}
+		},
+		"timeMarkers": [
+			"yesterday",
+			"last week",
+			"a month ago",
+			"in 2010",
+			"this morning",
+			"In 1992"
 		]
 	}
 ]

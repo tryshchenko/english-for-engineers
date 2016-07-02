@@ -1,0 +1,58 @@
+[
+	{
+		"title": "Past perfect",
+		"description": "Some finished action in the past",
+		"schema": {
+			"positive": [
+				"P", "A", "V2", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "V1", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "V1", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "had",
+				"2": "had",
+				"3": "had"
+			},
+			"plural": {
+				"1": "had",
+				"2": "had",
+				"3": "had"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "hadn't",
+				"2": "hadn't",
+				"3": "hadn't"
+			},
+			"plural": {
+				"1": "hadn't",
+				"2": "hadn't",
+				"3": "hadn't"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "had",
+				"2": "had",
+				"3": "had"
+			},
+			"plural": {
+				"1": "had",
+				"2": "had",
+				"3": "had"
+			}
+		},
+		"timeMarkers": [
+			"by 6 o'clock",
+			"when (past simple)",
+			"before (past simple)"
+		]
+	}
+]
