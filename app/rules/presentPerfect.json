@@ -1,0 +1,70 @@
+[
+	{
+		"title": "Present perfect",
+		"description": "An action which are already done",
+		"schema": {
+			"positive": [
+				"P", "A", "V3", "S", "TM"
+			],
+			"negative": [
+				"P", "N", "V3", "S", "TM"
+			],
+			"question": [
+				"Q", "P", "V3", "S", "TM"
+			]
+		},
+		"axilary": {
+			"singular": {
+				"1": "have",
+				"2": "have",
+				"3": "has"
+			},
+			"plural": {
+				"1": "have",
+				"2": "have",
+				"3": "have"
+			}
+		},
+		"negativeMarker": {
+			"singular": {
+				"1": "have not",
+				"2": "have not",
+				"3": "has not"
+			},
+			"plural": {
+				"1": "have not",
+				"2": "have not",
+				"3": "have not"
+			}
+		},
+		"questionMarker": {
+			"singular": {
+				"1": "have",
+				"2": "have",
+				"3": "has"
+			},
+			"plural": {
+				"1": "have",
+				"2": "have",
+				"3": "have"
+			}
+		},
+		"timeMarkers": [
+			"always",
+			"frequently",
+			"often",
+			"usually",
+			"generally",
+			"rarely",
+			"regulary",
+			"accasionally",
+			"sometimes",
+			"seldom",
+			"never",
+			"every ...",
+			"once a ...",
+			"twice a ...",
+			"X times a ..."
+		]
+	}
+]
