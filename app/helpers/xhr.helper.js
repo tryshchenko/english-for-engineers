@@ -25,6 +25,10 @@ app.xhr = (function($){
 		}
 	}
 
+	/**
+	 * Check is cache already expired or not
+	 * @return {Boolean} Cache is expired
+	 */
 	var isCacheExpired = function() {
 		var time = window.localStorage[_storageKey + _timePerfix];
 		var now = new Date().getTime().toString();
