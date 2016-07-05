@@ -3,10 +3,11 @@ var app = app || {};
 app.xhr = (function($){
 	'use strict';
 
-	var version = '1.0';
+	var version = '1.1';
 	var _storageUrl = document.location.origin + document.location.pathname + 'app/rules/';
 	var _shortHandUrl = document.location.origin + '/app/rules/';
 	var _storageKey = '_englishLesson-' + version;
+	var _timePerfix = '_expire';
 
 	/**
 	 * Decorator for success calback. Saves value to cache after success.
@@ -16,9 +17,23 @@ app.xhr = (function($){
 	 */
 	var successDecorator = function(key, successCallback) {
 		return function(response) {
+			if (window.localStorage[_storageKey + _timePerfix] == undefined) {
+				window.localStorage.setItem(_storageKey + _timePerfix, new Date().getTime() + 360000);
+			}
 			window.localStorage.setItem(_storageKey + key, JSON.stringify(response));
 			successCallback(response);
 		}
+	}
+
+	var isCacheExpired = function() {
+		var time = window.localStorage[_storageKey + _timePerfix];
+		var now = new Date().getTime().toString();
+		if (time == undefined || now > time) {
+			console.info('Cache cleared');
+			localStorage.clear()
+			return true;
+		}
+		return false;
 	}
 
 	/**
@@ -32,7 +47,7 @@ app.xhr = (function($){
 		var file = what + '.json';
 
 		// If it exists in the cache
-		if (window.localStorage[_storageKey + file] !== undefined) {
+		if (window.localStorage[_storageKey + file] !== undefined && !isCacheExpired()) {
 			return success(JSON.parse(window.localStorage[_storageKey + file]));
 		}
 

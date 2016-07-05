@@ -7,7 +7,7 @@
 				"P", "A", "AS", "Ving", "S", "TM"
 			],
 			"negative": [
-				"P", "A", "N", "AS", "Ving", "S", "TM"
+				"P", "N", "AS", "Ving", "S", "TM"
 			],
 			"question": [
 				"A", "P", "AS", "Ving", "S", "TM"
