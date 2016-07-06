@@ -3,7 +3,7 @@ var app = app || {};
 app.xhr = (function($){
 	'use strict';
 
-	var version = '1.1';
+	var version = '1.4';
 	var _storageUrl = document.location.origin + document.location.pathname + 'app/rules/';
 	var _shortHandUrl = document.location.origin + '/app/rules/';
 	var _storageKey = '_englishLesson-' + version;

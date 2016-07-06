@@ -52,9 +52,7 @@
 		"timeMarkers": [
 			"now",
 			"right now",
-			"presently",
 			"for the time being",
-			"currently",
 			"at the moment",
 			"at the present",
 			"nowadays",
@@ -112,7 +110,8 @@
 			}
 		},
 		"timeMarkers": [
-			"currently"
+			"currently",
+			"presently"
 		]
 	},
 
@@ -169,22 +168,21 @@
 		"timeMarkers": [
 			"at present",
 			"at the moment",
-			"at the present"
+			"at the present (...)"
 		]
 	},
-
 	{
 		"title": "Going to",
-		"description": "Action which are you planing to do",
+		"description": "planned actions",
 		"schema": {
 			"positive": [
-				"P", "A", "Ving", "S", "TM"
+				"P", "A", "V1", "S", "TM"
 			],
 			"negative": [
-				"P", "N", "Ving", "S", "TM"
+				"P", "N", "V1", "S", "TM"
 			],
 			"question": [
-				"Q", "P", "Ving", "S", "TM"
+				"Q", "P", "A", "V1", "S", "TM"
 			]
 		},
 		"axilary": {
@@ -233,7 +231,7 @@
 	},
 
 	{
-		"title": "Complaining something",
+		"title": "Complaining about something",
 		"description": "Some regular continuous action",
 		"schema": {
 			"positive": [

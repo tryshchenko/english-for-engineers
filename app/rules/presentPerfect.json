@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Present perfect",
-		"description": "An action which are already done",
+		"description": "An action which is already done",
 		"schema": {
 			"positive": [
 				"P", "A", "V3", "S", "TM"
@@ -50,21 +50,12 @@
 			}
 		},
 		"timeMarkers": [
-			"always",
-			"frequently",
-			"often",
-			"usually",
-			"generally",
-			"rarely",
-			"regulary",
-			"accasionally",
-			"sometimes",
-			"seldom",
+			"up to now",
+			"so far",
+			"already",
 			"never",
-			"every ...",
-			"once a ...",
-			"twice a ...",
-			"X times a ..."
+			"ever",
+			"just"
 		]
 	}
 ]
